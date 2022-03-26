@@ -1,0 +1,230 @@
+digraph history {
+graph [nodesep=1.5, ranksep=1.5];
+0 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="spaceXAxis = \{1,2,3,4,5,6,7,8,9,10,11,12\},spaceYAxis = \{1,2,3,4,5,6,7\},space = \{(1\|-\>1),(1\|-\>2),(1\|-\>3),(1\|-\>4),(1\|-\>5),(1\|-\>6),(1\|-\>7),(2\|-\>1),(2\|-\>2),(2\|-\>3),(2\|-\>4),(2\|-\>5),(2\|-\>6),(2\|-\>7),(3\|-\>1),(3\|-\>2),(3\|-\>3),(3\|-\>4),(3\|-\>5),(3\|-\>6),(3\|-\>7),(4\|-\>1),(4\|-\>2),(4\|-\>3),(4\|-\>4),(4\|-\>5),(4\|-\>6),(4\|-\>7),(5\|-\>1),(5\|-\>2),(5\|-\>3),(5\|-\>4),(5\|-\>5),(5\|-\>6),(5\|-\>7),(6\|-\>1),(6\|-\>2),(6\|-\>3),(6\|-\>4),(6\|-\>5)...,\nasteroids = \{(3\|-\>2),(3\|-\>5),(5\|-\>4),(6\|-\>7),(7\|-\>1),(7\|-\>5),(7\|-\>7),(8\|-\>3),(10\|-\>6),(11\|-\>2),(12\|-\>5)\},emptyRegion = \{(1\|-\>1),(1\|-\>2),(1\|-\>3),(1\|-\>4),(1\|-\>5),(1\|-\>6),(1\|-\>7),(2\|-\>1),(2\|-\>2),(2\|-\>3),(2\|-\>4),(2\|-\>5),(2\|-\>6),(2\|-\>7),(3\|-\>1),(3\|-\>3),(3\|-\>4),(3\|-\>6),(3\|-\>7),(4\|-\>1),(4\|-\>2),(4\|-\>3),(4\|-\>4),(4\|-\>5),(4\|-\>6),(4\|-\>7),(5\|-\>1),(5\|-\>2),(5\|-\>3),(5\|-\>5),(5\|-\>6),(5\|-\>7),(6\|-\>1),(6\|-\>2),(6\|-\>3),(6\|-\>4),(6\|-\>5),(6\|-\>6),(7\|-\>2),(7\|-\>3)...,homebase = (1\|-\>1),\nstarbase = (6\|-\>4),normalMovementPower = 5,warpDriveMovementPower = 20,\nasteroidCollisionPower = 10"];
+
+1 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 100,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),xAxis = 1,yAxis = 1"];
+
+18 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncurrentPower = 80,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),xAxis = 6,\nyAxis = 1"];
+
+23 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 75,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),regionsVisited(3) = (6\|-\>2),\nxAxis = 6,yAxis = 2"];
+
+34 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (5)\ncurrentPower = 70,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),regionsVisited(3) = (6\|-\>2),\nregionsVisited(4) = (6\|-\>3),xAxis = 6,yAxis = 3"];
+
+48 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (3)\ncurrentPower = 65,gameStatus = GameWon,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),regionsVisited(3) = (6\|-\>2),\nregionsVisited(4) = (6\|-\>3),regionsVisited(5) = (6\|-\>4),xAxis = 6,\nyAxis = 4"];
+
+62 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 90,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),xAxis = 1,yAxis = 1"];
+
+69 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 70,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),xAxis = 6,\nyAxis = 1"];
+
+75 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (3)\ncurrentPower = 60,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),xAxis = 6,\nyAxis = 1"];
+
+85 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 55,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),regionsVisited(3) = (6\|-\>2),\nxAxis = 6,yAxis = 2"];
+
+106 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 45,gameStatus = GameNotOver,noOfAsteroidCollisions = 2,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),regionsVisited(3) = (6\|-\>2),\nxAxis = 6,yAxis = 2"];
+
+110 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 40,gameStatus = GameNotOver,noOfAsteroidCollisions = 2,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),regionsVisited(3) = (6\|-\>2),\nregionsVisited(4) = (6\|-\>3),xAxis = 6,yAxis = 3"];
+
+124 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (3)\ncurrentPower = 35,gameStatus = GameWon,noOfAsteroidCollisions = 2,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),regionsVisited(3) = (6\|-\>2),\nregionsVisited(4) = (6\|-\>3),regionsVisited(5) = (6\|-\>4),xAxis = 6,\nyAxis = 4"];
+
+138 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 80,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),xAxis = 1,yAxis = 1"];
+
+146 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncurrentPower = 70,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),xAxis = 1,yAxis = 1"];
+
+150 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 65,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),xAxis = 1,\nyAxis = 2"];
+
+161 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 60,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),regionsVisited(3) = (1\|-\>3),\nxAxis = 1,yAxis = 3"];
+
+176 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 55,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),regionsVisited(3) = (1\|-\>3),\nregionsVisited(4) = (2\|-\>3),xAxis = 2,yAxis = 3"];
+
+189 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 50,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),regionsVisited(3) = (1\|-\>3),\nregionsVisited(4) = (2\|-\>3),regionsVisited(5) = (3\|-\>3),xAxis = 3,\nyAxis = 3"];
+
+203 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 45,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),regionsVisited(3) = (1\|-\>3),\nregionsVisited(4) = (2\|-\>3),regionsVisited(5) = (3\|-\>3),regionsVisited(6) = (4\|-\>3),\nxAxis = 4,yAxis = 3"];
+
+214 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 40,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),regionsVisited(3) = (1\|-\>3),\nregionsVisited(4) = (2\|-\>3),regionsVisited(5) = (3\|-\>3),regionsVisited(6) = (4\|-\>3),\nregionsVisited(7) = (4\|-\>4),xAxis = 4,yAxis = 4"];
+
+228 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 35,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),regionsVisited(3) = (1\|-\>3),\nregionsVisited(4) = (2\|-\>3),regionsVisited(5) = (3\|-\>3),regionsVisited(6) = (4\|-\>3),\nregionsVisited(7) = (4\|-\>4),regionsVisited(8) = (4\|-\>5),xAxis = 4,\nyAxis = 5"];
+
+243 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 30,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),regionsVisited(3) = (1\|-\>3),\nregionsVisited(4) = (2\|-\>3),regionsVisited(5) = (3\|-\>3),regionsVisited(6) = (4\|-\>3),\nregionsVisited(7) = (4\|-\>4),regionsVisited(8) = (4\|-\>5),regionsVisited(9) = (5\|-\>5),\nxAxis = 5,yAxis = 5"];
+
+257 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 25,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),regionsVisited(3) = (1\|-\>3),\nregionsVisited(4) = (2\|-\>3),regionsVisited(5) = (3\|-\>3),regionsVisited(6) = (4\|-\>3),\nregionsVisited(7) = (4\|-\>4),regionsVisited(8) = (4\|-\>5),regionsVisited(9) = (5\|-\>5),\nregionsVisited(10) = (4\|-\>5),xAxis = 4,yAxis = 5"];
+
+269 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncurrentPower = 20,gameStatus = GameNotOver,noOfAsteroidCollisions = 1,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),regionsVisited(3) = (1\|-\>3),\nregionsVisited(4) = (2\|-\>3),regionsVisited(5) = (3\|-\>3),regionsVisited(6) = (4\|-\>3),\nregionsVisited(7) = (4\|-\>4),regionsVisited(8) = (4\|-\>5),regionsVisited(9) = (5\|-\>5),\nregionsVisited(10) = (4\|-\>5),regionsVisited(11) = (5\|-\>5),xAxis = 5,\nyAxis = 5"];
+
+281 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 10,gameStatus = GameNotOver,noOfAsteroidCollisions = 2,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),regionsVisited(3) = (1\|-\>3),\nregionsVisited(4) = (2\|-\>3),regionsVisited(5) = (3\|-\>3),regionsVisited(6) = (4\|-\>3),\nregionsVisited(7) = (4\|-\>4),regionsVisited(8) = (4\|-\>5),regionsVisited(9) = (5\|-\>5),\nregionsVisited(10) = (4\|-\>5),regionsVisited(11) = (5\|-\>5),xAxis = 5,\nyAxis = 5"];
+
+295 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 5,gameStatus = GameNotOver,noOfAsteroidCollisions = 2,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),regionsVisited(3) = (1\|-\>3),\nregionsVisited(4) = (2\|-\>3),regionsVisited(5) = (3\|-\>3),regionsVisited(6) = (4\|-\>3),\nregionsVisited(7) = (4\|-\>4),regionsVisited(8) = (4\|-\>5),regionsVisited(9) = (5\|-\>5),\nregionsVisited(10) = (4\|-\>5),regionsVisited(11) = (5\|-\>5),regionsVisited(12) = (6\|-\>5),\nxAxis = 6,yAxis = 5"];
+
+298 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (4)\ncurrentPower = 0,gameStatus = GameWon,noOfAsteroidCollisions = 2,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (1\|-\>2),regionsVisited(3) = (1\|-\>3),\nregionsVisited(4) = (2\|-\>3),regionsVisited(5) = (3\|-\>3),regionsVisited(6) = (4\|-\>3),\nregionsVisited(7) = (4\|-\>4),regionsVisited(8) = (4\|-\>5),regionsVisited(9) = (5\|-\>5),\nregionsVisited(10) = (4\|-\>5),regionsVisited(11) = (5\|-\>5),regionsVisited(12) = (6\|-\>5),\nregionsVisited(13) = (6\|-\>4),xAxis = 6,yAxis = 4"];
+
+301 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncurrentPower = 50,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),xAxis = 1,yAxis = 1"];
+
+308 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncurrentPower = 30,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),xAxis = 6,\nyAxis = 1"];
+
+310 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 30,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (8\|-\>1),xAxis = 8,\nyAxis = 1"];
+
+316 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncurrentPower = 10,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),regionsVisited(3) = (1\|-\>1),\nxAxis = 1,yAxis = 1"];
+
+324 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 5,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),regionsVisited(3) = (1\|-\>1),\nregionsVisited(4) = (1\|-\>2),xAxis = 1,yAxis = 2"];
+
+326 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (4)\ncurrentPower = 0,gameStatus = GameLost,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>1),regionsVisited(3) = (1\|-\>1),\nregionsVisited(4) = (1\|-\>2),regionsVisited(5) = (1\|-\>3),xAxis = 1,\nyAxis = 3"];
+
+335 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncurrentPower = 10,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (8\|-\>1),regionsVisited(3) = (4\|-\>1),\nxAxis = 4,yAxis = 1"];
+
+340 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 5,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (8\|-\>1),regionsVisited(3) = (4\|-\>1),\nregionsVisited(4) = (4\|-\>2),xAxis = 4,yAxis = 2"];
+
+343 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncurrentPower = 0,gameStatus = GameLost,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (8\|-\>1),regionsVisited(3) = (4\|-\>1),\nregionsVisited(4) = (4\|-\>2),regionsVisited(5) = (4\|-\>3),xAxis = 4,\nyAxis = 3"];
+
+347 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 40,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),xAxis = 1,yAxis = 1"];
+
+349 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 35,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (2\|-\>1),xAxis = 2,\nyAxis = 1"];
+
+360 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 30,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (2\|-\>1),regionsVisited(3) = (3\|-\>1),\nxAxis = 3,yAxis = 1"];
+
+372 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 25,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (2\|-\>1),regionsVisited(3) = (3\|-\>1),\nregionsVisited(4) = (4\|-\>1),xAxis = 4,yAxis = 1"];
+
+383 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 20,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (2\|-\>1),regionsVisited(3) = (3\|-\>1),\nregionsVisited(4) = (4\|-\>1),regionsVisited(5) = (5\|-\>1),xAxis = 5,\nyAxis = 1"];
+
+394 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncurrentPower = 15,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (2\|-\>1),regionsVisited(3) = (3\|-\>1),\nregionsVisited(4) = (4\|-\>1),regionsVisited(5) = (5\|-\>1),regionsVisited(6) = (5\|-\>2),\nxAxis = 5,yAxis = 2"];
+
+408 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 10,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (2\|-\>1),regionsVisited(3) = (3\|-\>1),\nregionsVisited(4) = (4\|-\>1),regionsVisited(5) = (5\|-\>1),regionsVisited(6) = (5\|-\>2),\nregionsVisited(7) = (6\|-\>2),xAxis = 6,yAxis = 2"];
+
+410 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 5,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (2\|-\>1),regionsVisited(3) = (3\|-\>1),\nregionsVisited(4) = (4\|-\>1),regionsVisited(5) = (5\|-\>1),regionsVisited(6) = (5\|-\>2),\nregionsVisited(7) = (6\|-\>2),regionsVisited(8) = (6\|-\>3),xAxis = 6,\nyAxis = 3"];
+
+414 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncurrentPower = 0,gameStatus = GameWon,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (2\|-\>1),regionsVisited(3) = (3\|-\>1),\nregionsVisited(4) = (4\|-\>1),regionsVisited(5) = (5\|-\>1),regionsVisited(6) = (5\|-\>2),\nregionsVisited(7) = (6\|-\>2),regionsVisited(8) = (6\|-\>3),regionsVisited(9) = (6\|-\>4),\nxAxis = 6,yAxis = 4"];
+
+418 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="currentPower = 20,gameStatus = GameNotOver,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),xAxis = 1,yAxis = 1"];
+
+430 [shape=doubleoctagon, color="#99BF38", fontsize=12, penwidth=2, label="repeated (5)\ncurrentPower = 0,gameStatus = GameWon,noOfAsteroidCollisions = 0,\nregionsVisited(1) = (1\|-\>1),regionsVisited(2) = (6\|-\>4),xAxis = 6,\nyAxis = 4"];
+
+root [shape=invtriangle, color="#99BF38", fontsize=12, penwidth=2, label="root"];
+
+root -> 0 [style = dotted, color = black, label="SETUP_CONSTANTS", fontsize=12];
+
+0 -> 1 [color = "#006391", label="INITIALISATION", fontsize=12];
+
+1 -> 18 [color = "#006391", label="EngageWarpDrive(6,1)--\>WarpSuccessful", fontsize=12];
+
+
+18 -> 23 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+23 -> 34 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+
+
+
+
+34 -> 48 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+
+
+48 -> 62 [color = "#006391", label="NewGame(90)", fontsize=12];
+
+62 -> 69 [color = "#006391", label="EngageWarpDrive(6,1)--\>WarpSuccessful", fontsize=12];
+
+69 -> 75 [color = "#006391", label="MoveForward--\>MovementError_OccupiedByAsteroid", fontsize=12];
+69 -> 75 [color = "#006391", label="EngageWarpDrive(7,1)--\>WarpError_OccupiedByAsteroi\nd", fontsize=12];
+
+
+
+75 -> 85 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+85 -> 106 [color = "#006391", label="EngageWarpDrive(7,1)--\>WarpError_OccupiedByAsteroi\nd", fontsize=12];
+
+106 -> 110 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+110 -> 124 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+
+
+124 -> 138 [color = "#006391", label="NewGame(80)", fontsize=12];
+
+138 -> 146 [color = "#006391", label="EngageWarpDrive(7,1)--\>WarpError_OccupiedByAsteroi\nd", fontsize=12];
+
+
+146 -> 150 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+150 -> 161 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+161 -> 176 [color = "#006391", label="MoveForward--\>MovementSuccessful", fontsize=12];
+
+176 -> 189 [color = "#006391", label="MoveForward--\>MovementSuccessful", fontsize=12];
+
+189 -> 203 [color = "#006391", label="MoveForward--\>MovementSuccessful", fontsize=12];
+
+203 -> 214 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+214 -> 228 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+228 -> 243 [color = "#006391", label="MoveForward--\>MovementSuccessful", fontsize=12];
+
+243 -> 257 [color = "#006391", label="MoveBackward--\>MovementSuccessful", fontsize=12];
+
+257 -> 269 [color = "#006391", label="MoveForward--\>MovementSuccessful", fontsize=12];
+
+
+269 -> 281 [color = "#006391", label="MoveDown--\>MovementError_OccupiedByAsteroid", fontsize=12];
+269 -> 281 [color = "#006391", label="EngageWarpDrive(7,1)--\>WarpError_OccupiedByAsteroi\nd", fontsize=12];
+
+281 -> 295 [color = "#006391", label="MoveForward--\>MovementSuccessful", fontsize=12];
+
+295 -> 298 [color = "#006391", label="MoveDown--\>MovementSuccessful", fontsize=12];
+
+
+
+
+298 -> 301 [color = "#006391", label="NewGame(50)", fontsize=12];
+
+301 -> 308 [color = "#006391", label="EngageWarpDrive(6,1)--\>WarpSuccessful", fontsize=12];
+
+
+308 -> 316 [color = "#006391", label="EngageWarpDrive(1,1)--\>WarpSuccessful", fontsize=12];
+
+
+316 -> 324 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+324 -> 326 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+
+
+
+326 -> 301 [color = "#006391", label="NewGame(50)", fontsize=12];
+
+301 -> 310 [color = "#006391", label="EngageWarpDrive(8,1)--\>WarpSuccessful", fontsize=12];
+
+310 -> 335 [color = "#006391", label="EngageWarpDrive(4,1)--\>WarpSuccessful", fontsize=12];
+
+
+335 -> 340 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+340 -> 343 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+
+343 -> 347 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+347 -> 349 [color = "#006391", label="MoveForward--\>MovementSuccessful", fontsize=12];
+
+349 -> 360 [color = "#006391", label="MoveForward--\>MovementSuccessful", fontsize=12];
+
+360 -> 372 [color = "#006391", label="MoveForward--\>MovementSuccessful", fontsize=12];
+
+372 -> 383 [color = "#006391", label="MoveForward--\>MovementSuccessful", fontsize=12];
+
+383 -> 394 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+
+394 -> 408 [color = "#006391", label="MoveForward--\>MovementSuccessful", fontsize=12];
+
+408 -> 410 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+410 -> 414 [color = "#006391", label="MoveUp--\>MovementSuccessful", fontsize=12];
+
+
+414 -> 418 [color = "#006391", label="NewGame(20)", fontsize=12];
+
+418 -> 430 [color = "#006391", label="EngageWarpDrive(6,4)--\>WarpSuccessful", fontsize=12];
+
+
+
+
+
+}
